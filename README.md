@@ -12,10 +12,10 @@ You'll need to have [Docker](https://www.docker.com/) installed. You can opt to 
 sls deploy
 ```
 
-# How to use
+## How to use
 
 Check out the [example](example) folder for a simple use case of this layer in a Serverless function.
 
-# Additional notes
+## Additional notes
 
 This dependency bundle will not be available locally to Serverless. If you need to test locally, install the web3.js npm package as a development dependency.
