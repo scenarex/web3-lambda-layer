@@ -1,0 +1,12 @@
+{
+  "name": "web3-lambda-layer",
+  "description": "web3.js Lambda Layer",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scenarex/web3-lambda-layer"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

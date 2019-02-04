@@ -1,0 +1,20 @@
+service: web3-provider
+frameworkVersion: ">=1.34.0 <2.0.0"
+
+plugins:
+  - serverless-pseudo-parameters
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  get-provider:
+    handler: example.handler
+    layers:
+      # Update this ARN after you've deployed the web3 layer
+      - arn:aws:lambda:#{AWS::Region}#{AWS::AccountId}:layer:web3:1
+    events:
+      - http:
+          path: web3
+          method: get
