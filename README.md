@@ -8,7 +8,7 @@ You'll need to have [Docker](https://www.docker.com/) installed. You can opt to 
 
 ## Deployment
 
-```bash
+```shell
 sls deploy
 ```
 
